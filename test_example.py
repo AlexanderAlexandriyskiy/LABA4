@@ -16,3 +16,6 @@ class TestMath:
 
     def test_division(self):
         assert 10 / 2 == 5
+def test_will_fail():
+    """Этот тест специально сломаем"""
+    assert 1 + 1 == 3  # Ошибка!
