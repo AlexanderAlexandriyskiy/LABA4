@@ -18,4 +18,4 @@ class TestMath:
         assert 10 / 2 == 5
 def test_will_fail():
     """Этот тест специально сломаем"""
-    assert 1 + 1 == 3  # Ошибка!
+    assert 1 + 1 == 2  # Ошибка!
